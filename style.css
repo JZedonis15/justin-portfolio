@@ -94,6 +94,23 @@ article {
 a {
     color: #0056b3;
 }
+/* Links */
+a {
+    color: #0056b3;
+}
+
+a:focus-visible {
+    outline: 3px solid #ff9900;
+    outline-offset: 4px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 24px;
+}
 
 /* Footer */
 footer {
